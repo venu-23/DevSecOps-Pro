@@ -1,7 +1,7 @@
 FROM eclipse-temurin:21-jre-alpine
 
-RUN apt update && \
-    apt upgrade --no-cache
+RUN apk update && \
+    apk upgrade --no-cache
 
 WORKDIR /app
 
